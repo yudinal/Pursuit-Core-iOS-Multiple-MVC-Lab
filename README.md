@@ -15,7 +15,9 @@ Create a custom tableview cell that contains an image, and two labels.
 
 ### Step 3:
 
-Create a detail view controller with a large image and all information about the animal on it. When you select a row in the tableView it should segue to the correct detail view. Don't forget to pass the object to the detail page in the segue.
+Create a detail view controller with a large image and all information about the animal on it. When you select a row in the tableView it should segue to the correct detail view. 
+Don't forget to pass the object to the detail page in the segue.
+Don't forget to embed your TableViewController in a NavigationViewController.
 
 ### Step 4:
 
