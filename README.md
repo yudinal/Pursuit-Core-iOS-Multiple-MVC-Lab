@@ -1,5 +1,7 @@
 # AC-iOS-Multiple-MVC
 
+![video](/seguesVideo.gif)
+
 Let's practice making a tableView that segues to a detail page.
 
 Inside this repo, you'll find a skeleton project with a ZooAnimal class outlined.
