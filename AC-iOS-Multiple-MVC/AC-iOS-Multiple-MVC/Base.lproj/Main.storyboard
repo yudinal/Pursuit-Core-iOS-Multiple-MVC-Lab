@@ -85,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1074" y="-113"/>
+            <point key="canvasLocation" x="-1201" y="-113"/>
         </scene>
         <!--Animal View Controller-->
         <scene sceneID="NTf-38-eBT">
@@ -98,14 +98,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hbp-td-fJS">
                                 <rect key="frame" x="0.0" y="140" width="414" height="358.5"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6h-2u-6j8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animal Origin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6h-2u-6j8">
                                 <rect key="frame" x="8" y="506.5" width="414" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animal Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxz-yX-c1a">
-                                <rect key="frame" x="8" y="535.5" width="398" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Animal Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxz-yX-c1a">
+                                <rect key="frame" x="8" y="535.5" width="398" height="326.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -120,6 +120,7 @@
                             <constraint firstItem="YYI-fh-Rh8" firstAttribute="trailing" secondItem="Cxz-yX-c1a" secondAttribute="trailing" constant="8" id="ROv-VN-gR7"/>
                             <constraint firstItem="Hbp-td-fJS" firstAttribute="height" secondItem="LPv-Wl-9jx" secondAttribute="height" multiplier="0.4" id="V0Q-ng-hbB"/>
                             <constraint firstItem="Hbp-td-fJS" firstAttribute="top" secondItem="YYI-fh-Rh8" secondAttribute="top" id="bWU-M6-FZt"/>
+                            <constraint firstItem="YYI-fh-Rh8" firstAttribute="bottom" secondItem="Cxz-yX-c1a" secondAttribute="bottom" id="hOM-AI-kZE"/>
                             <constraint firstItem="Hbp-td-fJS" firstAttribute="trailing" secondItem="YYI-fh-Rh8" secondAttribute="trailing" id="uoy-92-ovL"/>
                             <constraint firstItem="y6h-2u-6j8" firstAttribute="trailing" secondItem="YYI-fh-Rh8" secondAttribute="trailing" constant="8" id="uw3-gb-abm"/>
                             <constraint firstItem="Cxz-yX-c1a" firstAttribute="leading" secondItem="YYI-fh-Rh8" secondAttribute="leading" constant="8" id="vPe-S8-YFi"/>
@@ -136,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z6O-3z-b0H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-349" y="-113"/>
+            <point key="canvasLocation" x="-547.82608695652175" y="-113.16964285714285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lzj-qL-fBx">
